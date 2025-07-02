@@ -18,6 +18,3 @@ This project is designed to help you build a solid foundation in **Semantic HTML
 - Familiarity with semantic HTML elements and their purpose.
 - Basic knowledge of SEO and its importance in web development.
 - Awareness of web accessibility standards, including ARIA roles and attributes.
-
----
-Happy

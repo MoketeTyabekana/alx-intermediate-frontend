@@ -41,3 +41,67 @@ This project is also designed to help you build a solid foundation in **Semantic
 - Awareness of web accessibility standards, including ARIA roles and attributes.
 
 ---
+
+## Projects
+
+### 1. Flexbox Basics - Build a Simple Navigation Bar
+
+**Objective:** Use Tailwind and Flexbox to create a horizontal navigation bar that adjusts to different screen sizes.
+
+- **File:** `0x02-tailwind-css/3-nav_index.html`
+- **Instructions:**
+  - Build a simple horizontal navigation bar using Tailwind and Flexbox.
+  - Create a file named `3-nav_index.html` and add the provided HTML structure.
+  - After the header, add a `<nav>` tag with four `<a>` tags: Home, About, Services, Contact.
+  - Use:  
+    - `class="flex space-x-5 justify-center bg-gray-300 text-white p-4"` on `<nav>`
+    - `class="px-2 text-xl hover:bg-gray-500 p-2 rounded-lg"` on each `<a>`
+  - The navigation bar should be responsive and stack vertically on small screens.
+
+---
+
+### 2. Create a Responsive Flexbox Layout with Tailwind
+
+**Objective:** Build a responsive page layout with Tailwind’s utility classes, using the Tailwind CDN.
+
+- **File:** `0x02-tailwind-css/4-flexbox_index.html`
+- **Instructions:**
+  - Create a new file `4-flexbox_index.html` and add the provided HTML structure.
+  - Add `flex` class to the `<main>` tag.
+  - The `<aside>` should have: `class="w-1/3 bg-gray-300 p-4"`
+  - The `<section>` should have: `class="w-2/3 bg-gray-500 p-4"`
+  - The layout should be responsive and stack vertically on small screens.
+
+---
+
+### 3. Combine CSS Grid and Flexbox for a Multi-Section Layout
+
+**Objective:** Combine both grid and flexbox to create a responsive layout.
+
+- **File:** `0x02-tailwind-css/5-gridflex_index.html`
+- **Instructions:**
+  - Create a file `5-gridflex_index.html` and add the provided HTML structure.
+  - In `<main>`, use: `class="grid grid-cols-1 lg:grid-cols-3 gap-4 mt-4 min-h-screen"`
+  - In `<section>`, use: `class="lg:col-span-2 flex"`
+  - Each `<div>` in the section should have padding, a red background gradient, and occupy half the width.
+
+---
+
+### 4. Build a Responsive Image Gallery Using CSS Grid
+
+**Objective:** Expand on the previous layout by adding a responsive image gallery using CSS grid.
+
+- **File:** `0x02-tailwind-css/6-imageGallery.html`
+- **Instructions:**
+  - Use the layout from the previous task.
+  - Add a section for an image gallery below the existing content.
+  - Use CSS Grid to arrange images in a 3-column layout, adjusting to 1 column on small screens.
+  - Ensure images are responsive.
+
+---
+
+### 5. Manual Review
+
+- **Repo:** `alx-intermediate-frontend`
+- **Directory:** `0x02-tailwind-css`
+

@@ -14,31 +14,32 @@
     </style>
   </head>
   <body>
-    <nav class="flex justify-end items-center space-x-5  bg-gray-800 text-white py-4 px-10 fixed top-0 w-full ">
-        
+    <nav
+      class="flex justify-end items-center space-x-5 bg-gray-800 text-white py-4 px-10 "
+    >
       <a href="#" class="px-2 text-xl hover:bg-gray-500 p-2 rounded-md">Home</a>
-      <a href="#" class="px-2 text-xl  hover:bg-gray-500 p-2 rounded-md"
+      <a href="#" class="px-2 text-xl hover:bg-gray-500 p-2 rounded-md"
         >About</a
       >
-      <a href="#" class="px-2 text-xl  hover:bg-gray-500 p-2 rounded-md"
+      <a href="#" class="px-2 text-xl hover:bg-gray-500 p-2 rounded-md"
         >Services</a
       >
-      <a href="#" class="px-2 text-xl  hover:bg-gray-500 p-2 rounded-md"
+      <a href="#" class="px-2 text-xl hover:bg-gray-500 p-2 rounded-md"
         >Contact</a
       >
     </nav>
 
     <main
-      class="flex flex-col gap-4 mt-20 min-h-screen justify-center items-center"
+      class="flex flex-col gap-4  min-h-screen justify-center items-center"
     >
-    <h1 class="text-3xl font-bold mt-4 text-gray-500">Gallery</h1>
+      <h1 class="text-3xl font-bold mt-10 text-gray-500">Gallery</h1>
       <section
         id="images"
         class="grid lg:grid-cols-3 grid-cols-1 gap-4 w-full p-10"
       ></section>
     </main>
 
-    <footer class="bg-gray-800 text-white p-4 mt-4">
+    <footer class="bg-gray-800 text-white p-10 mt-4">
       <p>&copy; 2024 John Doe's Blog</p>
     </footer>
 
@@ -57,15 +58,15 @@
           alt: "Image 3",
         },
         {
-          src: "https://images.unsplash.com/photo-1506748686214-e9df14d4d9d0?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=800&q=60",
+          src: "https://images.unsplash.com/photo-1635939412822-8f3ee593d147?q=80&w=1054&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
           alt: "Image 4",
         },
         {
-          src: "https://images.unsplash.com/photo-1506748686214-e9df14d4d9d0?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=800&q=60",
+          src: "https://images.unsplash.com/photo-1617695744007-68ef55752789?q=80&w=736&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
           alt: "Image 5",
         },
         {
-          src: "https://images.unsplash.com/photo-1506748686214-e9df14d4d9d0?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=800&q=60",
+          src: "https://images.unsplash.com/photo-1525972292986-69295aebf4cc?q=80&w=1169&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
           alt: "Image 6",
         },
       ];
@@ -86,7 +87,7 @@
         imgElement.src = image.src;
         imgElement.alt = image.alt;
         imgElement.className =
-          "w-full h-auto object-cover rounded-lg shadow-md";
+          "w-full h-auto object-cover rounded-lg shadow-md hover:scale-105 transition-transform duration-300 ";
         imagesContainer.appendChild(imgElement);
       });
     </script>

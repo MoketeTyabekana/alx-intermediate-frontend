@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+      @media (max-width: 768px) {
+        main {
+          grid-template-columns: 1fr;
+        }
+      }
+    </style>
+  </head>
+  <body class="p-4">
+    <header class="mb-4">
+      <h1 class="text-3xl font-bold">Flexbox Navigation Bar</h1>
+    </header>
+    <nav class="flex space-x-5 justify-center bg-gray-300 text-white p-4">
+      <a href="#" class="px-2 text-xl hover:bg-gray-500 p-2 rounded-lg">Home</a>
+      <a href="#" class="px-2 text-xl hover:bg-gray-500 p-2 rounded-lg"
+        >About</a
+      >
+      <a href="#" class="px-2 text-xl hover:bg-gray-500 p-2 rounded-lg"
+        >Services</a
+      >
+      <a href="#" class="px-2 text-xl hover:bg-gray-500 p-2 rounded-lg"
+        >Contact</a
+      >
+    </nav>
+
+    <main
+      class="flex flex-col gap-4 mt-4 min-h-screen justify-center items-center"
+    >
+      <section>
+        <h1>Mokete</h1>
+      </section>
+    </main>
+
+    <footer class="bg-gray-800 text-white p-4 mt-4">
+      <p>&copy; 2024 John Doe's Blog</p>
+    </footer>
+
+    <script>
+      const gallery = [
+        {
+          src: "https://images.unsplash.com/photo-1506748686214-e9df14d4d9d0?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=800&q=60",
+          alt: "Image 1",
+        },
+        {
+          src: "https://images.unsplash.com/photo-1506748686214-e9df14d4d9d0?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=800&q=60",
+          alt: "Image 2",
+        },
+        {
+          src: "https://images.unsplash.com/photo-1506748686214-e9df14d4d9d0?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=800&q=60",
+          alt: "Image 3",
+          srcset:
+            "https://images.unsplash.com/photo-1506748686214-e9df14d4d9d0?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=800&q=60 800w, https://images.unsplash.com/photo-1506748686214-e9df14d4d9d0?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1200&q=60 1200w",
+
+          src: "https://images.unsplash.com/photo-1506748686214-e9df14d4d9d0?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=800&q=60",
+          alt: "Image 4",
+
+          src: "https://images.unsplash.com/photo-1506748686214-e9df14d4d9d0?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=800&q=60",
+          alt: "Image 5",
+
+          src: "https://images.unsplash.com/photo-1506748686214-e9df14d4d9d0?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=800&q=60",
+          alt: "Image 6",
+        },
+      ];
+    </script>
+  </body>
+</html>

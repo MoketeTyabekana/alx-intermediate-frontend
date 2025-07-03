@@ -10,6 +10,7 @@
     --color-red-200: oklch(88.5% 0.062 18.334);
     --color-red-400: oklch(70.4% 0.191 22.216);
     --color-red-500: oklch(63.7% 0.237 25.331);
+    --color-red-700: oklch(50.5% 0.213 27.518);
     --color-yellow-200: oklch(94.5% 0.129 101.54);
     --color-green-200: oklch(92.5% 0.084 155.995);
     --color-blue-200: oklch(88.2% 0.059 254.128);
@@ -260,6 +261,9 @@
   .font-bold {
     --tw-font-weight: var(--font-weight-bold);
     font-weight: var(--font-weight-bold);
+  }
+  .text-red-700 {
+    color: var(--color-red-700);
   }
   .text-white {
     color: var(--color-white);

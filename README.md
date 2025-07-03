@@ -99,9 +99,3 @@ This project is also designed to help you build a solid foundation in **Semantic
   - Ensure images are responsive.
 
 ---
-
-### 5. Manual Review
-
-- **Repo:** `alx-intermediate-frontend`
-- **Directory:** `0x02-tailwind-css`
-

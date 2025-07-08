@@ -1,0 +1,42 @@
+body {
+  background-color: #ffffff;
+  color: #333;
+  font-family: Arial, sans-serif;
+}
+
+header {
+  background-color: #0079f1;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+main {
+  display: flex;
+  height: 100vh;
+  padding: 10px;
+}
+
+section {
+  background-color: darkGray;
+  color: #333;
+  text-align: center;
+  flex: 1;
+}
+
+aside {
+  background-color: lightGray;
+  color: #333;
+  text-align: center;
+  flex: 1;
+}
+
+footer {
+  background-color: #343a40;
+  color: white;
+  text-align: center;
+  padding: 10px;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+}/*# sourceMappingURL=styles.css.map */

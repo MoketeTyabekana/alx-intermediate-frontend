@@ -1,0 +1,52 @@
+
+
+$header: #0079f1;
+$main: #ffffff;
+$section: #52a8fd;
+$aside: #0d69c5;
+$footer: #343a40;
+
+@mixin theme($theme : lightGray){
+    background-color: $theme;
+    color: #333;
+    text-align: center;
+    flex:1;
+   
+}
+
+body {
+    background-color: $main;
+    color: #333;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: $header;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+main {
+    display: flex;
+    height: 100vh;
+    padding: 10px
+}
+
+section {
+    @include theme(darkGray);
+}
+
+aside {
+     @include theme;
+}
+
+footer {
+    background-color: $footer;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}

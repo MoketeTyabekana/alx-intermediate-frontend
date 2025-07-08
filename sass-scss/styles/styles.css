@@ -1,4 +1,7 @@
 body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
   background-color: #ffffff;
   color: #333;
   font-family: Arial, sans-serif;
@@ -14,7 +17,6 @@ header {
 main {
   display: flex;
   height: 100vh;
-  padding: 10px;
 }
 
 section {

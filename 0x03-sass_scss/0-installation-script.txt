@@ -1,0 +1,14 @@
+*install and set up SASS*
+
+1. I opened my terminal and git bassh as my preferred command prompt
+
+
+2.Then I navigated to the directory of my SASS project.
+$ cd 0x03-sass_scss
+
+
+3. Then retyped the provided prompt for the installation of SASS
+$ npm install sass -v 3.7.4
+
+4. Bellow is the output which shows the version of SASS that is installed.
+11.2.0
